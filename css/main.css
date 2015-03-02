@@ -45,7 +45,7 @@ nav li {
 	display: inline;
 	width: 33.333%;
 	float: left;
-		border: 1px solid #a93f35;
+	border: 1px solid #a93f35;
 }
 
 nav a {
@@ -60,3 +60,68 @@ nav a:hover {
 	background-color: #a93f35;
 	margin: 0em;
 }
+
+p {
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+.grains {
+	float: left;
+	width: 40%;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+.p2 {
+	clear: left;
+}
+
+.inset {
+	float: right;
+	width: 40%;
+	margin-top: 5px;
+}
+
+.clear-it{
+	width: 40%;
+	clear: right;
+}
+
+h2 {
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center;
+	background-color: #d05c2e;
+	display: block;
+	padding: 20px;
+	margin: 0em;
+}
+
+figure {
+	margin: 0px;
+}
+
+figcaption {
+	margin: 0;
+	padding: 0;
+	font-size: .9em;
+	font-style: italic;
+	text-align: center;
+}
+
+.corn {
+	width: 100%;
+	float: left;
+}
+ .rice {
+ 	width: 50%;
+ 	float: right;
+ }
+
+.oats {
+	width: 50%;
+	float: right;
+}
+
