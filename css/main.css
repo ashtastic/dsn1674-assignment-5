@@ -123,17 +123,28 @@ figcaption {
 	text-align: center;
 }
 
+.fig-rice {
+	clear: left;
+	float: right;
+	margin: 0em;
+}
+
+.fig-oats {
+	clear: left;
+	margin: 0em;
+}
+
 .corn {
 	width: 100%;
 	float: left;
 }
  .rice {
- 	width: 50%;
- 	float: right;
+ 	width: 45%;
+ 	clear: right;
  }
 
 .oats {
-	width: 50%;
+	width: 45%;
 	float: right;
 }
 
