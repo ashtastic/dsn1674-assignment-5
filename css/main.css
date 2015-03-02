@@ -7,6 +7,10 @@ html {
 	box-sizing: inherit;
 }
 
+body {
+	margin: 0;
+}
+
 h1 {
 	color: #fff;
 	font-size: 2em;
@@ -21,13 +25,13 @@ h1 {
 .grain-l {
 	float: left;
 	width: 45px;
-	margin: 10px;
+	margin-top: 15px;
 }
 
 .grain-r {
 	float:right;
 	width: 45px;
-	margin: 10px;
+	margin-top: 15px;
 }
 
 nav {
@@ -64,28 +68,36 @@ nav a:hover {
 p {
 	font-size: 1em;
 	line-height: 1.5em;
+	margin: 10px;
+	margin-top: 3.5em;
 }
 
 .grains {
 	float: left;
 	width: 40%;
+	margin-left: 10px;
 	margin-right: 5px;
-	margin-top: 5px;
 }
 
 .p2 {
 	clear: left;
+	margin-top: 1em;
 }
 
 .inset {
 	float: right;
 	width: 40%;
 	margin-top: 5px;
+	padding-top: 5px;
+	margin-right: 10px;
+	margin-left: 5px;
 }
 
 .clear-it{
 	width: 40%;
 	clear: right;
+	margin-right: 10px;
+	margin-left: 5px;
 }
 
 h2 {
@@ -125,3 +137,15 @@ figcaption {
 	float: right;
 }
 
+aside {
+	display: block;
+	background-color: #d05c2e;
+}
+
+aside p {
+	color: #fff;
+	font-size: 1em;
+	padding: 1em;
+	text-align: center;
+	margin: 0;
+}
