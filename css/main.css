@@ -112,7 +112,7 @@ h2 {
 	margin: 0em;
 }
 
-figure {
+h2 p{
 	margin: 0px;
 }
 
@@ -128,13 +128,14 @@ figure {
 	text-align: center;
 	background-color: #dc8252;
 	color: white;
+	margin: 0;
 }
 
  .rice, .oats {
  	display: inline;
  	width: 50%;
  	float: left;
- 	margin: 0em;
+ 	margin: 0;
  }
 
  .fig-rice, .fig-oats {
@@ -146,6 +147,7 @@ figure {
 	text-align: center;
 	background-color: #dc8252;
 	color: white;
+	margin: 0;
 }
 
 .fig-oats {
@@ -179,7 +181,7 @@ ul {
 	padding: 0;
 	font-style: italic;
 	font-size: 0.8em;
-	clear: left;
+	clear: right;
 	list-style: none;
 	line-height: 1.5em;
 }
@@ -187,7 +189,7 @@ ul {
 li {
 	margin: 0;
 	padding-right: 5px;
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 }
 
 .peanuts, .beans, .lentils {
@@ -195,7 +197,7 @@ li {
 	width: 20%;
 	margin-left: 10px;
 	margin-right: 5px;
-	margin-bottom: 5px;
+	margin-bottom: 20px;
 }
 
 .beans {
@@ -203,7 +205,7 @@ li {
 }
 
 .lentils {
-	float: left;
+	clear: left;
 }
 
 aside {
