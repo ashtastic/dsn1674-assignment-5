@@ -50,25 +50,27 @@ nav li {
 	width: 33.333%;
 	float: left;
 	border: 1px solid #a93f35;
+	background-color: #d05c2e;
+	padding: 0em;
 }
 
 nav a {
 	display: block;
-	padding: 0.5em;
 	text-decoration: none;
 	color: white;
 	background-color: #d05c2e;
+	padding: 0.5em;
 }
 
 nav a:hover {
 	background-color: #a93f35;
-	margin: 0em;
 }
 
 p {
 	line-height: 1.5em;
 	margin: 10px;
 	margin-top: 3.5em;
+	margin-bottom: 1em;
 }
 
 .grains {
@@ -101,7 +103,7 @@ p {
 
 h2 {
 	color: #fff;
-	font-size: 1.2em;
+	font-size: 1.5em;
 	font-weight: bold;
 	text-align: center;
 	background-color: #dc8252;
@@ -159,12 +161,49 @@ figure {
 }
 
 h3 {
-	font-size: 1.2em;
-	font-weight: bold;
+	font-size: 1.5em;
+	font-weight: bolder;
 	text-align: center;
 	display: block;
 	padding: 1em;
+	margin: 0;
 	clear: both;
+}
+
+span {
+	font-weight: bold;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	font-style: italic;
+	font-size: 0.8em;
+	clear: left;
+	list-style: none;
+	line-height: 1.5em;
+}
+
+li {
+	margin: 0;
+	padding-right: 5px;
+	margin-bottom: 20px;
+}
+
+.peanuts, .beans, .lentils {
+	float: left;
+	width: 20%;
+	margin-left: 10px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+.beans {
+	clear: left;
+}
+
+.lentils {
+	float: left;
 }
 
 aside {
@@ -173,9 +212,9 @@ aside {
 }
 
 aside p {
-	color: #fff;
+	color: #e0a998;
 	font-size: 1em;
-	padding: 1em;
+	padding: 15px;
 	text-align: center;
 	margin: 0;
 }
