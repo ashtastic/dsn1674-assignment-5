@@ -60,6 +60,8 @@ nav a {
 	text-decoration: none;
 	color: white;
 	background-color: #d05c2e;
+	padding: 0.5em;
+	margin: 0;
 }
 
 nav a:hover {
