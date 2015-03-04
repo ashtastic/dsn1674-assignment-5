@@ -99,6 +99,7 @@ p {
 	clear: right;
 	margin-right: 10px;
 	margin-left: 5px;
+	margin-bottom: 10px;
 }
 
 h2 {
@@ -110,6 +111,7 @@ h2 {
 	display: block;
 	padding: 20px;
 	margin: 0em;
+	clear: both;
 }
 
 h2 p{
@@ -190,6 +192,7 @@ li {
 	margin: 0;
 	padding-right: 5px;
 	margin-bottom: 25px;
+	float: left;
 }
 
 .peanuts, .beans, .lentils {
@@ -211,6 +214,7 @@ li {
 aside {
 	display: block;
 	background-color: #d05c2e;
+	clear: both;
 }
 
 aside p {
