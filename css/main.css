@@ -183,16 +183,13 @@ ul {
 	padding: 0;
 	font-style: italic;
 	font-size: 0.8em;
-	clear: right;
+	display: inline;
 	list-style: none;
-	line-height: 1.5em;
 }
 
-li {
-	margin: 0;
-	padding-right: 5px;
-	margin-bottom: 25px;
-	float: left;
+ul li {
+	margin: 0 1em 0 0;
+	overflow: hidden;
 }
 
 .peanuts, .beans, .lentils {
@@ -210,6 +207,7 @@ li {
 .lentils {
 	clear: left;
 }
+
 
 aside {
 	display: block;
